@@ -1,18 +1,8 @@
-## Getting Started
+Напишите класс SortedIntegerList, который хранит отсортированный в порядке возрастания список целых чисел. Внутри класса список должен храниться с помощью LinkedList. У SortedInteger List должны быть определены:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Конструктор с булевским параметром; если этот параметр принимает значение true, то в  создаваемом списке разрешены повторяющиеся элементы, иначе --- нет;
+Методы add(int) и remove(int), которые, соответственно, добавляют число в список и удаляют число из списка; если добавление (удаление) невозможно --- метод не делает ничего. Операции добавления/удаления должны требовать не более чем одного прохода по списку;
+Метод 	equals();
+Примечание: использовать везде итератор.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Напишите программу, проверяющую работу класса SortedIntegerList. Постарайтесь реализовать возможно полный набор проверок.
